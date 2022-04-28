@@ -1,0 +1,27 @@
+body{margin: 0}
+.top-container{
+    background-color: FFAFAF;
+    height: 92%;
+    padding: 30px;
+font-family: Georgia, serif}
+.middle-container{
+    background-color: FBFFE2;
+    height: 80%;
+    padding: 30px;}
+.bottom-container{
+    background-color: FFEBCC;
+    height: 5%;
+    padding: 30px;}
+    h1{margin-left: 45%;}
+    p{margin-left: 46%;}
+.pro{
+    text-decoration: underline;
+}
+#cloud-1{position: relative; top: 40px; left: 30%}
+#cloud-2{position: relative; top: 100px; left:10%}
+#cloud-3{position: relative; top: 20px; left:60%}
+#mountain{position: absolute; top: 396px;left: 30%}
+h1{color: #05595B; font-family: 'Sacramento', cursive; font-size:45px;line-height: 2;}
+p{color: #062C30}
+h2{color: #088f9e; font-weight: normal;}
+h3{color: #0d3438}

@@ -1,0 +1,6 @@
+body {background-color:#56BBF1}
+hr {background-color:aquamarine}
+hr {border-style: none;}
+hr {height: 4px;}
+img{height: 200px; background-color: white}
+img:hover{background-color: black}
