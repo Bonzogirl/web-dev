@@ -3,4 +3,10 @@
   <h1>Home</h1>
   <p><%= homeStartingContent %></p>
 </div>
-<%- include("./partials/footer") -%>
+<% console.log(posts); %> <% posts.forEach(function(post){ %>
+<div class="body">
+  <h1><%= post.title %></h1>
+  <p class="content comment"><%=post.content%>...</p>
+  <a href="/posts/<%=post.title%>">read more</a>
+</div>
+<% }) %> <%- include("./partials/footer") -%>
