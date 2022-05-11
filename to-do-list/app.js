@@ -1,10 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 const date = require(__dirname + '/date.js');
 
 const app = express();
-var items = ['hug', 'kiss', 'fuck'];
-var workItems = [];
+mongoose.connect('mongodb://localhost:4000');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');

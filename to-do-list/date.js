@@ -1,4 +1,4 @@
-exports = getDate;
+module.exports.getDate = getDate;
 
 function getDate() {
   var today = new Date();
@@ -31,3 +31,4 @@ function getDate() {
   }
   return day;
 }
+console.log(module.exports);
